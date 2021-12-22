@@ -2,8 +2,8 @@ package BancoYPrestamos;
 
 public class SolicitudDeCreditoPersonal extends Solicitud {
 
-	public SolicitudDeCreditoPersonal(ClienteDeBanco cliente) {
-		super(cliente);
+	public SolicitudDeCreditoPersonal(ClienteDeBanco cliente, double monto, int cuotas) {
+		super(cliente, monto, cuotas);
 	}
 
 	@Override

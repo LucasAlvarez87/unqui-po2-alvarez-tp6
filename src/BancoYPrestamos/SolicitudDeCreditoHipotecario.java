@@ -2,8 +2,8 @@ package BancoYPrestamos;
 
 public class SolicitudDeCreditoHipotecario extends Solicitud {
 	
-	public SolicitudDeCreditoHipotecario(ClienteDeBanco cliente, PropiedadInmobilaria garantia) {
-		super(cliente);
+	public SolicitudDeCreditoHipotecario(ClienteDeBanco cliente, PropiedadInmobilaria garantia, double monto, int cuotas) {
+		super(cliente, monto, cuotas);
 		this.garantia = garantia;
 	}
 
